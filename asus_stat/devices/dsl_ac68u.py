@@ -1,4 +1,5 @@
-from asus.providers.ssh_provider import SSHProvider
+from asus_stat.providers.ssh_provider import SSHProvider
+
 
 class DSLAC68U():
 	def __init__(self, username, password, host, port):
@@ -15,3 +16,4 @@ class DSLAC68U():
 
 	def dsl_snr_margin_down(self):
 		return self.provider.get_var('dsllog_snrmargindown')
+
