@@ -1,5 +1,3 @@
-import paramiko
-
 from asus.providers.ssh_provider import SSHProvider
 
 class DSLAC68U():
